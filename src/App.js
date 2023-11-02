@@ -43,7 +43,7 @@ const WeatherApp = () => {
         {weatherData && (
             <div className="weather-data">
               <h2>{weatherData.name}</h2>
-              <p>Температура: {weatherData.main.temp}°C</p>
+              <p>Температура: {weatherData.main.temp}Fahrenheit</p>
               <p>Влажность: {weatherData.main.humidity}%</p>
               <p>Описание: {weatherData.weather[0].description}</p>
             </div>
